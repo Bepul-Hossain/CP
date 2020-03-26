@@ -20,16 +20,25 @@ process.stdin.on('end', _ => {
 
 
 function getMaxLessThanK(n, k) {
-    let max_anb = 0;
-    for (let b = n; b > 0; b--) {
-        for (let a = b-1; a > 0; a--) {
-            if ((a & b) < k && (a & b) > max_anb){
-                max_anb = (a&b);
+    let s0 = 0,s,i,m;
+        for (i = 1; i < n; i++)
+        {
+            for (m= i + 1; m <= n; m++)
+            {
+                s = i & (m);
+                //cout<<i<<"&"<<m<<" "<<s<<endl;
+                if (s < k)
+                {
+                    if (s > s0)
+                    {
+                        s0 = s;
+                    }
+                }
             }
         }
-    }
-    return max_anb;
+        return s0;
 }
+
 function readLine() {
     return inputString[currentLine++];
 }
