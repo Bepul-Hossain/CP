@@ -1,19 +1,18 @@
-var a = 5;
-var b = 10;
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
-function foo(strings, ...values) {
-    console.log(strings);
-    console.log(values);
-    
-    let a = values[0];
-    let b = values[1];
-    console.log('aa'+a);
-    return `Sum ${a + b}
-Product ${a * b} 
-Division ${b / a}`;
-}
-console.log('a'+a);
+rl.question("What is your name ? ", function(name) {
+  rl.question("Where do you live ? ", function(country) {
+    console.log(name+country);
+    rl.close();
+  });
+});
 
-console.log(foo`Num1 ${a + 10}
-Num2 ${b * 2} 
-Num3 ${b / a}`);
+
+rl.on("close", function() {
+  console.log("\nBYE BYE !!!");
+  process.exit(0);
+});
