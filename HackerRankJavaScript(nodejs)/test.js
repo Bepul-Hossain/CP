@@ -1,18 +1,12 @@
-const prompt = require("prompt-sync")({ sigint: true });
-const t = Number(prompt());
-let value, date;
-//console.log('t '+t);
+let re =new RegExp(/\d+/g)
+const s = "666sks8.9d.kjs";
+let res=s.match(re)
 
-for (let i = 0; i < t; i++) {
-  value = prompt();
-  date = new Date(value);
-  //console.log('date '+date);
-  
-  if (date.getDay() === 0) console.log("Sunday");
-  else if (date.getDay() === 1) console.log("Monday");
-  else if (date.getDay() === 2) console.log("Tuesday");
-  else if (date.getDay() === 3) console.log("Wednesday");
-  else if (date.getDay() === 4) console.log("Thursday");
-  else if (date.getDay() === 5) console.log("Friday");
-  else console.log("Satarday");
+console.log(res);
+console.log(res[0]);
+console.log(res[4]);
+for (const e of res) {
+    console.log(e);
 }
+
+console.log(re.test(s) ? "true" : "false");
