@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/bepul_cse_ru?hr_r=1
+## Only for nodejs developer
 
 
 **1.** arrow function **[map](https://codeburst.io/learn-understand-javascripts-map-function-ffc059264783)**, filter, reduce fuction's used 
