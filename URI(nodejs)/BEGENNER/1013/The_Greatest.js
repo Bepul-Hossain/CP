@@ -24,7 +24,13 @@ function readLine() {
 }
 
 function main() {
-  const R = Number(readLine());
-  const pi = 3.14159;
-  console.log("VOLUME = " + ((4.0 / 3) * pi * R * R * R).toFixed(3));
+  const line = readLine();
+  const input = line.split(" ");
+  const A = parseInt(Number(input[0]));
+  const B = parseInt(Number(input[1]));
+  const C = parseInt(Number(input[2]));
+
+  const maxab = (A + B + Math.abs(A - B)) / 2;
+  const max = (maxab + C + Math.abs(maxab - C)) / 2;
+  console.log(max + " eh o maior");
 }

@@ -24,7 +24,15 @@ function readLine() {
 }
 
 function main() {
-  const R = Number(readLine());
-  const pi = 3.14159;
-  console.log("VOLUME = " + ((4.0 / 3) * pi * R * R * R).toFixed(3));
+  var N = parseInt(Number(readLine()));
+  
+  const year = parseInt(N / 365);
+  N %= 365;
+  const month = parseInt(N / 30);
+  N %= 30;
+  const day = parseInt(N);
+
+  console.log(year + " ano(s)");
+  console.log(month + " mes(es)");
+  console.log(day + " dia(s)");
 }

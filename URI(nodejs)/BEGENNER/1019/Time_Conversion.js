@@ -24,7 +24,13 @@ function readLine() {
 }
 
 function main() {
-  const R = Number(readLine());
-  const pi = 3.14159;
-  console.log("VOLUME = " + ((4.0 / 3) * pi * R * R * R).toFixed(3));
+  var N = parseInt(Number(readLine()));
+
+  const hour = parseInt(N / 3600);
+  N %= 3600;
+  const minute = parseInt(N / 60);
+  N %= 60;
+  const second = parseInt(N);
+
+  console.log(hour + ":" + minute + ":" + second);
 }

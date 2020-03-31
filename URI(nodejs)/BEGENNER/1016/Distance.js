@@ -24,7 +24,7 @@ function readLine() {
 }
 
 function main() {
-  const R = Number(readLine());
-  const pi = 3.14159;
-  console.log("VOLUME = " + ((4.0 / 3) * pi * R * R * R).toFixed(3));
+  const line1 = parseInt(Number(readLine()));
+  console.log(2*line1+" minutos");
+
 }

@@ -24,7 +24,7 @@ function readLine() {
 }
 
 function main() {
-  const R = Number(readLine());
-  const pi = 3.14159;
-  console.log("VOLUME = " + ((4.0 / 3) * pi * R * R * R).toFixed(3));
+  const X = readLine();
+  const Y = readLine();
+  console.log((X/Y).toFixed(3)+" km/l");
 }
