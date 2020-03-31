@@ -1,6 +1,7 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8')
 
 var lines = input.split('\n')
+console.log(lines);
 
 var linha1 = lines.shift().split(' ')
 var code1 = parseInt(linha1.shift())
