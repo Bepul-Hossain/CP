@@ -9,3 +9,4 @@ Example: [prompt.js](https://github.com/bepul0/On-line-judge-problem-solved/blob
 **3.** **[precission find](https://www.techonthenet.com/js/number_tofixed.php)**
 num=5.892;  num.toFixed(2);  will return 5.89 
 ***** 
+**4.** Take javaScript multi input in one line. Like **cin>>a>>b>>c** in c++ language using **[str.split(' ')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)** method. [Example](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1010)
