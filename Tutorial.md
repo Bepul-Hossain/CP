@@ -1,5 +1,6 @@
 ## **Only for nodejs developer**
 
+## **uri Environment: JavaScript (nodejs 8.4.0) [+2s] {beta}**
 
 **1.** arrow function **[map](https://codeburst.io/learn-understand-javascripts-map-function-ffc059264783)**, filter, reduce fuction's used 
 *****
