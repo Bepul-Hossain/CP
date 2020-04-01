@@ -12,5 +12,5 @@ num=5.892;  num.toFixed(2);  will return 5.89
 ***** 
 **4.** Take javaScript multi input in one line. Like **cin>>a>>b>>c** in c++ language using **[str.split(' ')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)** method. [Example](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1010)
 *****
-**4.** sort function syntax. **[array.sort()](https://www.tutorialrepublic.com/faq/how-to-sort-an-array-of-integers-correctly-in-javascript.php)** My github example: [Simple_Sort_Me.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1042) 
+**4.** Sort function syntax. **[array.sort()](https://www.tutorialrepublic.com/faq/how-to-sort-an-array-of-integers-correctly-in-javascript.php)** My github example: [Simple_Sort_Me.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1042) 
 *****
