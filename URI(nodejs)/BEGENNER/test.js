@@ -1,24 +1,27 @@
-const prompt = require("prompt-sync")({ sigint: true });
-const input = prompt();
-var lines = input.split(" ");
+var input = require("fs").readFileSync("/dev/stdin", "utf8");
+const lines = input.split(" ");
+const lines3 = input.split("\n");
 
-var vetor = [];
-var vetor_old = [];
+const N1 = 2 * parseFloat(Number(lines[0]));
+const N2 = 3 * parseFloat(Number(lines[1]));
+const N3 = 4 * parseFloat(Number(lines[2]));
+const N4 = parseFloat(Number(lines[3]));
+var average = parseFloat((Number(N1 + N2 + N3 + N4) / 10).toFixed(1));
 
-vetor[0] = parseInt(lines[0]);
-vetor[1] = parseInt(lines[1]);
-vetor[2] = parseInt(lines[2]);
-
-vetor_old = vetor.slice();
-
-function sortfunction(a, b) {
-  return a - b;
+console.log("Media: " + average);
+if (average >= 7.0) {
+  console.log("Aluno aprovado.");
+} else if (average < 5.0) {
+  console.log("Aluno reprovado.");
+} else if (average >= 5.0 && average <= 6.9) {
+  console.log("Aluno em exame.");
+  var lines2 = parseFloat(Number(lines3[1]));
+  console.log("Nota do exame: " + lines2);
+  average = (average + lines2) / 2;
+  if (average >= 5.0) {
+    console.log("Aluno aprovado.");
+  } else {
+    console.log("Aluno reprovado.");
+  }
+  console.log("Media final: " + average.toFixed(1));
 }
-vetor.sort(sortfunction);
-console.log(vetor[0]);
-console.log(vetor[1]);
-console.log(vetor[2]);
-
-console.log("\n" + vetor_old[0]);
-console.log(vetor_old[1]);
-console.log(vetor_old[2]);

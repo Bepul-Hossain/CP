@@ -1,7 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 const lines = input.split(" ");
 
-
 const N1 = 2 * parseFloat(Number(lines[0]));
 const N2 = 3 * parseFloat(Number(lines[1]));
 const N3 = 4 * parseFloat(Number(lines[2]));
@@ -13,11 +12,15 @@ if (average >= 7.0) {
   console.log("Aluno aprovado.");
 } else if (average < 5.0) {
   console.log("Aluno reprovado.");
-} else {
+} else if (average >= 5.0 && average <= 6.9) {
   console.log("Aluno em exame.");
   const lines2 = parseFloat(Number(input));
   console.log("Nota do exame: " + lines2);
-  console.log("Aluno aprovado.");
-
-  console.log("Media final: " + parseFloat((average + lines2) / 2));
+  average = (average + lines2) / 2;
+  if (average >= 5.0) {
+    console.log("Aluno aprovado.");
+  } else {
+    console.log("Aluno reprovado.");
+  }
+  console.log("Media final: " + average.toFixed(1));
 }

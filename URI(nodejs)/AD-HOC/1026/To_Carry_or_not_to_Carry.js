@@ -1,38 +1,26 @@
-"use strict";
+var input = require("fs").readFileSync("../inputFile.txt", "utf8");
+//var re = /^\s/;
+var lines = input.split("\n");
+var A=lines[0].split(' ')
 
-process.stdin.resume();
-process.stdin.setEncoding("utf-8");
+console.log(A[1]);
 
-let inputString = "";
-let currentLine = 0;
+console.log(lines[0]);
+console.log(lines[1]);
 
-process.stdin.on("data", (inputStdin) => {
-  inputString += inputStdin;
-});
 
-process.stdin.on("end", (_) => {
-  inputString = inputString
-    .replace(/\s*$/, "")
-    .split("\n")
-    .map((str) => str.replace(/\s*$/, ""));
+// console.log(lines.length);
+// for(let i=0; i<lines.length; i++){
+// console.log(lines[i]);
+// }
+// console.log("ok "+lines[0][3]);
 
-  main();
-});
+//console.log(" ok"+lines[2]);
 
-function readLine() {
-  return inputString[currentLine++];
-}
-
-function main() {
-  var line;
-  var input;
-  var A;
-  var B;
-  
-  while ((line = readLine())) {
-    input = line.split(" ");
-    A = Math.abs(parseInt(input[0]));
-    B = Math.abs(parseInt(input[1]));
-    console.log(A ^ B);
-  }
-}
+// var i = 0;
+// var j = 1;
+// while (lines[i] && lines[j]) {
+//  // console.log(lines[i] ^ lines[j]);
+//   i = i + 2;
+//   j = j + 3;
+// }
