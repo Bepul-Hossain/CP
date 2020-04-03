@@ -16,4 +16,4 @@ num=5.892;  num.toFixed(2);  will return 5.89
 *****
 **5.** **[UintArray_32](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array#Browser_compatibility)**
 *****
-**5.** **[3D_Array]()** Syntax. My github example:[Animal.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1049) 
+**5.** 3D_Array **input.split("\r\n")** Syntax. My github example:[Animal.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1049) 
