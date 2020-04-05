@@ -1,6 +1,4 @@
-## **Only for nodejs developer**
-
-## **uri Environment: JavaScript (nodejs 8.4.0) [+2s] {beta}**
+## **Uri Environment: JavaScript (nodejs 8.4.0) [+2s] {beta}**
 
 ## **Hacker rank Environment: JavaScript(Node.js)** **[Input system details](https://stackoverflow.com/questions/43528075/how-to-use-javascript-in-hackerrank-and-hackerearth)**
 
