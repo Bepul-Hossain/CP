@@ -1,6 +1,7 @@
 ## **Only for nodejs developer**
 
 ## **uri Environment: JavaScript (nodejs 8.4.0) [+2s] {beta}**
+## **Hacker rank Environment: JavaScript (nodejs)** **[Input system details](https://stackoverflow.com/questions/43528075/how-to-use-javascript-in-hackerrank-and-hackerearth)**
 
 **1.** arrow function **[map](https://codeburst.io/learn-understand-javascripts-map-function-ffc059264783)**, filter, reduce fuction's used 
 *****
@@ -14,6 +15,7 @@ num=5.892;  num.toFixed(2);  will return 5.89
 *****
 **4.** Sort function syntax. **[array.sort()](https://www.tutorialrepublic.com/faq/how-to-sort-an-array-of-integers-correctly-in-javascript.php)** My github example: [Simple_Sort_Me.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1042) 
 *****
-**5.** **[UintArray_32](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array#Browser_compatibility)**
+**5.** **[UintArray_32](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array#Browser_compatibility)** BigInterger **[BigInt, arbitrary precision integers in JavaScript](https://golb.hplar.ch/2018/09/javascript-bigint.html)**
 *****
-**5.** 3D_Array **input.split("\r\n")** Syntax. My github example:[Animal.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1049) 
+**6.** 3D_Array **input.split("\r\n")** Syntax. My github example: [Animal.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1049) 
+*****
