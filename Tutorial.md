@@ -8,7 +8,7 @@
 My github Example: [prompt.js](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/HackerRankJavaScript(nodejs)/10%20Days%20of%20JavaScript/prompt.js) 
 
 **3.** **[precission find](https://www.techonthenet.com/js/number_tofixed.php)**
-num=5.892;  num.toFixed(2);  will return 5.89 . [process.stdout.write(value+"")](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/HackerRankJavaScript(nodejs)/30%20Days%20of%20code%20(javaScript)/Day_6_Lets_Review.js) is print value without new line 
+num=5.892;  num.toFixed(2);  will return 5.89 . [process.stdout.write(value+"")](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/HackerRankJavaScript(nodejs)/30%20Days%20of%20code%20(javaScript)/Day_7_Arrays_Me.js) is print value without new line 
 
 **4.** Take javaScript multi input in one line. Like **cin>>a>>b>>c** in c++ language using **[str.split(' ')](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)** method. [Example](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1010)
 
