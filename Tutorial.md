@@ -18,4 +18,6 @@ num=5.892;  num.toFixed(2);  will return 5.89 . [process.stdout.write(value+"")]
 
 **7.** 3D_Array **input.split("\r\n")** Syntax. My github example: [Animal.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1049) 
 
-**8.** For end of file(eof) in javaScript(node.js) is used **undefined** My github example[Dictionaries_and_Maps.js](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/HackerRankJavaScript(nodejs)/30%20Days%20of%20code%20(javaScript)/Day_8_Dictionaries_and_Maps.js)
+**8.** For end of file(eof) in javaScript(node.js) is used **undefined** My github example.[Dictionaries_and_Maps.js](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/HackerRankJavaScript(nodejs)/30%20Days%20of%20code%20(javaScript)/Day_8_Dictionaries_and_Maps.js)
+
+**9.** [Number conversion: Decimal to Binery or more..](https://stackoverflow.com/questions/9939760/how-do-i-convert-an-integer-to-binary-in-javascript) **arr.forEach((value)=>{}** My github example.[Binary_Number.js](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/HackerRankJavaScript(nodejs)/30%20Days%20of%20code%20(javaScript)/Day_10_Binary_Number.js)
