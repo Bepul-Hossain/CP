@@ -17,4 +17,4 @@ num=5.892;  num.toFixed(2);  will return 5.89 . [process.stdout.write(value+"")]
 **6.** **[UintArray_32](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array#Browser_compatibility)** BigInterger **[BigInt, arbitrary precision integers in JavaScript](https://golb.hplar.ch/2018/09/javascript-bigint.html)**
 
 **7.** 3D_Array **input.split("\r\n")** Syntax. My github example: [Animal.js](https://github.com/bepul0/On-line-judge-problem-solved/tree/master/URI(nodejs)/BEGENNER/1049) 
-
+**8.** For end of file(eof) in javaScript(node.js) is used **undefined** My github example[Dictionaries_and_Maps.js](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/HackerRankJavaScript(nodejs)/30%20Days%20of%20code%20(javaScript)/Day_8_Dictionaries_and_Maps.js)
