@@ -1,1 +1,1 @@
-cat dev/input.txt | node Zoos.js > dev/output.txt
+cat dev/input.txt | node Seating_Arrangement.js > dev/output.txt
