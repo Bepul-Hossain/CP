@@ -2,6 +2,8 @@
 
 ## **Hacker rank Environment: JavaScript(Node.js)** **[Input system details](https://stackoverflow.com/questions/43528075/how-to-use-javascript-in-hackerrank-and-hackerearth)**
 
+## **Codeforces Environment: Node.js 9.4.0** **[Input system details](https://codeforces.com/blog/entry/69610)**
+
 **1.** arrow function **[map](https://codeburst.io/learn-understand-javascripts-map-function-ffc059264783)**, filter, reduce fuction's used 
 
 **2.** User Input in Node.js. Take a input from console by using **[prompt-sync](https://www.codecademy.com/articles/getting-user-input-in-node-js)** 
