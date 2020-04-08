@@ -1,0 +1,1 @@
+cat ../dev/input.txt | node A+B.js > ../dev/output.txt
