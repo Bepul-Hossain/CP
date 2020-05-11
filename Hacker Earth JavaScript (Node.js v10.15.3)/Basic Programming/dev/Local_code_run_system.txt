@@ -1,1 +1,1 @@
-cat ../dev/input.txt | node A+B.js > ../dev/output.txt
+cat ../../../dev/input.txt | node Monk_and_Welcome_Problem.js > ../../../dev/output.txt

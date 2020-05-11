@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+    printf("%7d\n",12364523);
+    printf("%-10d\n",123);
+    printf("%07d\n",189995);
+    printf("%4.3f\n",3.14159);
+    printf("%x\n",15679);
+    printf("%d\n",127);
+    getch();
+}

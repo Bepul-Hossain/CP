@@ -1,3 +1,4 @@
+//cat ../../../dev/input.txt | node Monk_and_Welcome_Problem.js > ../../../dev/output.txt
 "use strict";
 process.stdin.resume();
 process.stdin.setEncoding("utf-8");
