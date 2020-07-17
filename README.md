@@ -24,8 +24,8 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 **9.** [Number conversion: Decimal to Binery or more..](https://stackoverflow.com/questions/9939760/how-do-i-convert-an-integer-to-binary-in-javascript) **arr.forEach((value)=>{}** My github example.[Binary_Number.js](<https://github.com/bepul0/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_10_Binary_Numbers.js>)
 
 
-### Hacker Rank
-| Serial   |      Problem solution      | Serial   |      Problem solution      | Serial   |      Problem solution  |
+## Hacker Rank Solutions
+| Serial   |      Problem solutions     | Serial   |      Problem solutions     | Serial   |      Problem solutions |
 |:--------:|:--------------------------:|:--------:| :-------------------------:|:--------:|  :--------------------:|
 | 01 |  [Day_0_Hello_World.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_0_Hello_World.js) | 02 |  [Day_1_DataTypesSubmiteCode.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_1_DataTypesSubmiteCode.js) |  03 |  [Day_2_Operators.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_2_Operators.js) |
 | 04 |  [Day_3_Intro toConditionalStatements.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_3_Intro%20toConditionalStatements.js) | 05 |  [Day_4_Class_vs_Instance.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_4_Class_vs_Instance.js) |  06 | [Day_5_Loops.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_5_Loops.js) |
