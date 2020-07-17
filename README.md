@@ -25,9 +25,9 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 
 ## Problem solved list
 
-| Hacker Rank         |              Light OJ               |
-| ------------------- | ----------------------------------- |
-|<table>  <thead>  <tr>    <th>Serial</th>  <th>Problem solutions</th>  </tr>  </thead>  <tbody>  <tr>    <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>   <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>      | <table>  <thead>  <tr>    <th>Serial</th>  <th>Problem solutions</th>  </tr>  </thead>  <tbody>  <tr>    <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>   <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>           |
+| Hacker Rank         |              Light OJ               |   URI         |
+| ------------------- | ----------------------------------- | --------------|
+|<table>  <thead>  <tr>    <th>Serial</th>  <th>Problem solutions</th>  </tr>  </thead>  <tbody>  <tr>    <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>   <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>      | <table>  <thead>  <tr>    <th>Serial</th>  <th>Problem solutions</th>  </tr>  </thead>  <tbody>  <tr>    <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>   <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>           | <table>  <thead>  <tr>    <th>Serial</th>  <th>Problem solutions</th>  </tr>  </thead>  <tbody>  <tr>    <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>   <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>           |
 
 
 ## Hacker Rack
