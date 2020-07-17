@@ -23,8 +23,18 @@ num=5.892;  num.toFixed(2);  will return 5.89 . [process.stdout.write(value+"")]
 
 **9.** [Number conversion: Decimal to Binery or more..](https://stackoverflow.com/questions/9939760/how-do-i-convert-an-integer-to-binary-in-javascript) **arr.forEach((value)=>{}** My github example.[Binary_Number.js](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_10_Binary_Numbers.js)
 
+## Problem solved list
 
-Serial | Problem solved
+| Hacker Rank    |Light oj                       |URI                        |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|<table>  <thead>  <tr>  <th></th>  <th>ASCII</th>  <th>HTML</th>  </tr>  </thead>  <tbody>  <tr>  <td>Single backticks</td>  <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>  <td>Quotes</td>  <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td>Dashes</td>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>      |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|<table>  <thead>  <tr>  <th></th>  <th>ASCII</th>  <th>HTML</th>  </tr>  </thead>  <tbody>  <tr>  <td>Single backticks</td>  <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>  <td>Quotes</td>  <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td>Dashes</td>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>      |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|<table>  <thead>  <tr>  <th></th>  <th>ASCII</th>  <th>HTML</th>  </tr>  </thead>  <tbody>  <tr>  <td>Single backticks</td>  <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>  <td>Quotes</td>  <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td>Dashes</td>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>      |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+## Hacker Rack
+Serial | Problem solved  
 ------------ | -------------
 01 | [Funtion.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/Day_1_Functions.js)
 02 | [Funtions.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/Day_1_Functions.js)
