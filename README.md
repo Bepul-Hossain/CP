@@ -27,7 +27,7 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 
 | Hacker Rank         |              Light OJ               |
 | Serial | problem    |      sub head a      |  sub head b  |
-|========|============|======================|==============|
+|--------|------------|----------------------|--------------|
 | aaa    | bbb        | this is still just   | ccc          |
 | dddd   |ccccc       | a single row but I   |              |
 
