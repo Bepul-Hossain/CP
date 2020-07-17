@@ -36,3 +36,11 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 01     | [Funtion.js](<https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/Day_1_Functions.js>)  |
 | 02     | [Funtions.js](<https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/Day_1_Functions.js>) |
+
+
+| Hacker Rank         |              Light OJ               |   URI         |
+| ------------------- | ----------------------------------- | --------------|
+|| Serial | Problem solved                                                                                                                                                                   |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01     | [Funtion.js](<https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/Day_1_Functions.js>)  |
+| 02     | [Funtions.js](<https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/Day_1_Functions.js>) ||
