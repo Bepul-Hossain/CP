@@ -22,3 +22,9 @@ num=5.892;  num.toFixed(2);  will return 5.89 . [process.stdout.write(value+"")]
 **8.** For end of file(eof) in javaScript(node.js) is used **undefined** My github example.[Dictionaries_and_Maps.js](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_8_Dictionaries_and_Maps.js)
 
 **9.** [Number conversion: Decimal to Binery or more..](https://stackoverflow.com/questions/9939760/how-do-i-convert-an-integer-to-binary-in-javascript) **arr.forEach((value)=>{}** My github example.[Binary_Number.js](https://github.com/bepul0/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_10_Binary_Numbers.js)
+
+
+Serial | Problem solved
+------------ | -------------
+01 | [Funtion.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/Day_1_Functions.js)
+02 | [Funtions.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/Day_1_Functions.js)
