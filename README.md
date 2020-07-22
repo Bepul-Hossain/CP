@@ -41,11 +41,11 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 
 30 Days of JS solutions
 
-| Serial   |      Problem solutions     | Serial   |      Problem solutions     | Serial   |      Problem solutions |
-|:--------:|:--------------------------:|:--------:| :-------------------------:|:--------:|  :--------------------:|
-| 01 |  [Day_0_Hello_World.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_0_Hello_World.js) | 02 |  [Day_1_DataTypesSubmiteCode.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_1_DataTypesSubmiteCode.js) |  03 |  [Day_2_Operators.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_2_Operators.js) |
-| 04 |  [Day_3_Intro toConditionalStatements.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_3_Intro%20toConditionalStatements.js) | 05 |  [Day_4_Class_vs_Instance.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_4_Class_vs_Instance.js) |  06 | [Day_5_Loops.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_5_Loops.js) |
-| 07 |  [Day_6_Lets_Review.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_6_Lets_Review.js) | 08 |  [Day_7_Arrays_Me.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_7_Arrays_Me.js) |  09 | [Day_8_Dictionaries_and_Maps.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_8_Dictionaries_and_Maps.js) |
-| 10 |  [Day_9_Recursion_3.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_9_Recursion_3.js) | 11 |  [Day_10_Binary_Numbers.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_10_Binary_Numbers.js) |  12 | [Day_11_2D_Arrays.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_11_2D_Arrays.js) |
-| 13 |  [Day_12_Inheritance.js](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_12_Inheritance.js) | 14 |  []() |  15 | []() |
-| 13 |  []() | 14 |  []() |  15 | []() |
+| Serial   |      Problem solutions     | Serial   |      Problem solutions     | Serial   |      Problem solutions | Serial   |      Problem solutions | Serial   |      Problem solutions |
+|:--------:|:--------------------------:|:--------:| :-------------------------:|:--------:|  :--------------------:|:--------:|  :--------------------:|:--------:|  :--------------------:|
+| 01 | []()  | 02 |  []() |  03 | []() |  04 | []() |  05 |[]() | 
+| 06 | []()  | 07 |  []() |  08 | []() |  09 | []() |  10 |[]() |
+| 11 | []()  | 12 |  []() |  13 | []() |  14 | []() |  15 |[]() |
+| 16 | []()  | 17 |  []() |  18 | []() |  19 | []() |  20 |[]() |
+| 21 | []()  | 22 |  []() |  23 | []() |  24 | []() |  25 |[]() |
+| 26 | []()  | 27 |  []() |  28 | []() |  29 | []() |  30 |[]() |
