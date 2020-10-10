@@ -6,7 +6,7 @@
 
 **1.** arrow function **[map](https://codeburst.io/learn-understand-javascripts-map-function-ffc059264783)**, filter, reduce fuction's used
 
-**2.** User Input in Node.js. Take a input from console by using **[prompt-sync](https://www.codecademy.com/articles/getting-user-input-in-node-js)** My github Example: [prompt.js](<https://github.com/bepul0/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/prompt.js>)
+**2.** User Input in Node.js. Take a input from console by using **i) [prompt-sync](https://www.codecademy.com/articles/getting-user-input-in-node-js)** **ii)[awesome basic](https://codelikethis.com/lessons/javascript/input-and-output)** My github Example: [prompt.js](<https://github.com/bepul0/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/10%20Days%20of%20JavaScript/prompt.js>) **iii)[data vs readable](https://stackoverflow.com/questions/26174308/what-are-the-differences-between-readable-and-data-event-of-process-stdin-stream)**
 
 **3.** **[precission find](https://www.techonthenet.com/js/number_tofixed.php)**
 num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<https://github.com/bepul0/On-line-judge-problem-solved/blob/master/Hacker%20Rank%20JavaScript%20(node.js)/30%20Days%20of%20code%20(javaScript)/Day_7_Arrays_Me.js>) is print value without new line
