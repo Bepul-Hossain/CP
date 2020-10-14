@@ -84,30 +84,3 @@ The HackerRank Interview Preparation Kit ( 12/69 Solved )
 | 21 | [1203_Guarding_Bananas.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1203_Guarding_Bananas.cpp) | 22 | [1216_Juice_in_the_Glass.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1216_Juice_in_the_Glass.cpp) | 23 | [1225_Palindromic_Numbers_(II).cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1225_Palindromic_Numbers_(II).cpp) | 24 | [1227_Boiled_Eggs.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1227_Boiled_Eggs.cpp) | 25 | [1249_Chocolate_Thief.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1249_Chocolate_Thief.cpp) |
 | 26 | [1255_Substring_Frequency.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1255_Substring_Frequency.cpp) | 27 | [1255_Substring_Frequency.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1255_Substring_Frequency.cpp) | 28 | [1301_Monitoring_Processes.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1301_Monitoring_Processes.cpp) | 29 | [1305_Area_of_a_Parallelogram.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1305_Area_of_a_Parallelogram.cpp) | 30 | [1331_Agent_J.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1331_Agent_J.cpp) |
 | 31 | [1433_Minimum_Arc_Distance.cpp](https://github.com/Bepul-Hossain/On-line-judge-problem-solved/blob/master/Light%20OJ%20C%2B%2B/1433_Minimum_Arc_Distance.cpp) |  | []() |  | []() |  | []() | | []() |
-
-
-
-## Problem solved list
-
-| Hacker Rank         |              Light OJ               |   URI         |
-| ------------------- | ----------------------------------- | --------------|
-|<table>  <thead>  <tr>    <th>Serial</th>  <th>Problem solutions</th>  </tr>  </thead>  <tbody>  <tr>    <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>   <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>      | <table>  <thead>  <tr>    <th>Serial</th>  <th>Problem solutions</th>  </tr>  </thead>  <tbody>  <tr>    <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>   <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>           | <table>  <thead>  <tr>    <th>Serial</th>  <th>Problem solutions</th>  </tr>  </thead>  <tbody>  <tr>    <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>   <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>           |
-
-```
-├───Arrays/
-│   ├───Arrays_Left_Rotation.js
-│   ├───input.txt
-│   ├───New_Year_Chaos.js
-│   ├───output
-│   ├───output.txt
-│   ├───outputs.txt
-│   └───_2D_Array_DS.js
-└───Warm-up Challenges/
-    ├───Counting_Valleys.js
-    ├───input.txt
-    ├───Jumping_on_the_Clouds.js
-    ├───output.txt
-    ├───Repeated_String.js
-    ├───Sock_Merchant.js
-    └───test.js
-```
