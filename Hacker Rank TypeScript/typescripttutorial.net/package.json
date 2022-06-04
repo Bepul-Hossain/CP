@@ -1,0 +1,12 @@
+{
+  "name": "typescripttutorial.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
