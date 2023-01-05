@@ -1,3 +1,5 @@
+//run: ts-node index.ts
+
 Tutorial list
 1. [typescripttutorial.net](https://www.typescripttutorial.net/typescript-tutorial/what-is-typescript/)
 
