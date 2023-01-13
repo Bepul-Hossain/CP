@@ -1,20 +1,20 @@
 আলোচ্যসুচীঃ
 
-[লিঙ্কড লিস্ট কি?](#1)
+[1. লিঙ্কড লিস্ট কি?](#1)
 
-[লিঙ্কড লিস্ট কয় প্রকার?](#2)
+[2. লিঙ্কড লিস্ট কয় প্রকার?](#2)
 
-[সাধারণ আলোচনা।](#3)
+[3. সাধারণ আলোচনা।](#3)
 
-[লিঙ্কড লিস্টের head এ value insert ও head থেকে value remove করা ।](#4)
+[4. লিঙ্কড লিস্টের head এ value insert ও head থেকে value remove করা ।](#4)
 
-[লিঙ্কড লিস্টের tail এ value insert ও tail থেকে value remove করা ।](#5)
+[5. লিঙ্কড লিস্টের tail এ value insert ও tail থেকে value remove করা ।](#5)
 
-[লিঙ্কড লিস্টের নির্দিষ্ট position এ value insert ও নির্দিষ্ট position থেকে value remove করা ।](#6)
+[6. লিঙ্কড লিস্টের নির্দিষ্ট position এ value insert ও নির্দিষ্ট position থেকে value remove করা ।](#6)
 
-[লিঙ্কড লিস্টের value কে reverse করা ।](#7)
+[7. লিঙ্কড লিস্টের value কে reverse করা ।](#7)
 
-[লিঙ্কড লিস্টের নির্দিষ্ট position এর value update করা ।](#8)
+[8. লিঙ্কড লিস্টের নির্দিষ্ট position এর value update করা ।](#8)
 
 <a id="1"></a>
 
