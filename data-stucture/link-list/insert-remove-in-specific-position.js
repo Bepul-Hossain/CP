@@ -1,6 +1,7 @@
+//লিঙ্কড লিস্টের নির্দিষ্ট position এ value insert ও নির্দিষ্ট position থেকে value remove করা ।
 class node {
-    constructor(data) {
-        this.data = data;
+    constructor(value) {
+        this.value = value;
         this.next = null;
     }
 }
@@ -9,15 +10,15 @@ class LinkList {
     constructor() {
         this.head = null;
     }
-    push(data) {
+    push(value) {
         if (this.head === null) {
-            return this.head = new node(data)
+            return this.head = new node(value)
         }
         let current = this.head;
         while (current.next) {
             current = current.next;
         }
-        current.next = new node(data)
+        current.next = new node(value)
     }
 
     //delete node
@@ -39,7 +40,7 @@ class LinkList {
     print() {
         let current = this.head;
         while (current) {
-            console.log(current.data);
+            console.log(current.value);
             current = current.next;
         }
     }

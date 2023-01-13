@@ -216,3 +216,7 @@ list.removeFromTail();
 list.print();
 // console.log(list);
 ```
+
+<a id="6"></a>
+[6. লিঙ্কড লিস্টের নির্দিষ্ট position এ value insert ও নির্দিষ্ট position থেকে value remove করা ।]()
+যে position এর node টি Delete করতে চাই । তার আগের position কে lead node বলে ।
