@@ -1,0 +1,16 @@
+{
+    "editor.minimap.enabled": false,
+    "files.autoSave": "off",
+    "workbench.iconTheme": "material-icon-theme",
+    // "workbench.colorTheme": "Dracula Soft", // can change for theme that you have downloaded extension
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true // this great for indent code on SAVE
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#181818"
+    },
+    "editor.tokenColorCustomizations": {
+        "numbers": "#0081B4"
+    }
+}
