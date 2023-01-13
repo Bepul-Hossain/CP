@@ -95,6 +95,7 @@ class LinkedList {
 }
 ```
 
+<a id="4"></a>
 [4. লিঙ্কড লিস্টের head এ value insert ও head থেকে value remove করা ।]()
 
 ```
@@ -151,6 +152,7 @@ list.removeFromHead();
 list.print();
 ```
 
+<a id="5"></a>
 [5. লিঙ্কড লিস্টের tail এ value insert ও tail থেকে value remove করা ।]()
 
 ```
