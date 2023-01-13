@@ -18,9 +18,9 @@
 
 <a id="1"></a>
 
-1. লিঙ্কড লিস্ট কি?
+[1. লিঙ্কড লিস্ট কি?]()
 
-   লিঙ্কড লিস্ট হল item এর list কে represent করার একটা উপায়, যা অ্যারে এর মতই । লিঙ্কড লিস্ট-এ list এর item গুলো একটার পরে আরেকটা, লিঙ্ক আকারে থাকে । list এর প্রত্যেকটা item একটা single object ধারণ করে । যা value এবং next এই দুইটা property ধারণ করে । value যেকোন জাভাস্ক্রিপ্ট ডাটা-টাইপ(string, object, number) হতে পারে । next পরবর্তী item কে ধারণ করে । এই item গুলোকেই আমরা node নামে ডেকে থাকি । প্রথম node কে head এবং শেষ node কে tail বলা হয় ।
+লিঙ্কড লিস্ট হল item এর list কে represent করার একটা উপায়, যা অ্যারে এর মতই । লিঙ্কড লিস্ট-এ list এর item গুলো একটার পরে আরেকটা, লিঙ্ক আকারে থাকে । list এর প্রত্যেকটা item একটা single object ধারণ করে । যা value এবং next এই দুইটা property ধারণ করে । value যেকোন জাভাস্ক্রিপ্ট ডাটা-টাইপ(string, object, number) হতে পারে । next পরবর্তী item কে ধারণ করে । এই item গুলোকেই আমরা node নামে ডেকে থাকি । প্রথম node কে head এবং শেষ node কে tail বলা হয় ।
 
 ```
 {
@@ -39,23 +39,23 @@
 
 <a id="2"></a>
 
-2. লিঙ্কড লিস্ট কয় প্রকার?
+[2. লিঙ্কড লিস্ট কয় প্রকার?]()
 
-   লিঙ্কড লিস্ট তিন প্রকার ।
+লিঙ্কড লিস্ট তিন প্রকার ।
 
-   i) Singly linked list => প্রত্যেকটা node এ শুধুমাত্র next পয়ন্টার থাকে ।
+i) Singly linked list => প্রত্যেকটা node এ শুধুমাত্র next পয়ন্টার থাকে ।
 
-   ii) Doubly linked list => প্রত্যেকটা node এ শুধুমাত্র next এবং previous পয়ন্টার থাকে ।
+ii) Doubly linked list => প্রত্যেকটা node এ শুধুমাত্র next এবং previous পয়ন্টার থাকে ।
 
-   iii) Circular linked list => tail node পয়েন্ট করে head node কে ।
+iii) Circular linked list => tail node পয়েন্ট করে head node কে ।
 
 Circular linked list, Singly অথবা Doubly উভয়ই হতে পারে ।
 
 <a id="3"></a>
 
-3. সাধারণ আলোচনা
+[3. সাধারণ আলোচনা]()
 
-   node আমরা ২ ভাবে বানাতে পারি । function ব্যবহার করে অথবা class ব্যবহার করে ।
+node আমরা ২ ভাবে বানাতে পারি । function ব্যবহার করে অথবা class ব্যবহার করে ।
 
 ```
 i) function ব্যবহার করে
