@@ -8,7 +8,9 @@
         "source.fixAll": true // this great for indent code on SAVE
     },
     "workbench.colorCustomizations": {
-        "editor.background": "#181818"
+        "editor.background": "#002b36",
+        "editor.selectionBackground": "#f48fb1",
+        "editor.foreground": "#e6e6e6"
     },
     "editor.tokenColorCustomizations": {
         "numbers": "#0081B4"
