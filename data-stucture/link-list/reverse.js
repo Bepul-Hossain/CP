@@ -12,6 +12,7 @@ class LinkList {
         this.length = 0;
     }
     insert(value) {
+        this.length++;
         let newNode = createNode(value)
         while (this.tail) {
             this.tail.next = newNode;
