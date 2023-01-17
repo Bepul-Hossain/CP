@@ -1,5 +1,6 @@
 https://adrianmejia.com/data-structures-for-beginners-trees-binary-search-tree-tutorial/#Implementing-a-simple-tree-data-structure
 https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/
+
 আলোচ্যসুচীঃ
 
 [1. Trees কি?](#1)
@@ -19,8 +20,10 @@ https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structure
 <a id="1"></a>
 
 [1. Trees কি?]()
-Tree তে cycle থাকে না এবং Tree এর নির্দিষ্ট root থাকে । Tree হল এক ধরণের Graph কিন্তু সকল Gpaph ই Tree নয় ।
+
+Tree হল এক ধরণের Graph কিন্তু সকল Gpaph ই Tree নয় । Tree তে cycle থাকে না এবং Tree এর নির্দিষ্ট root থাকে ।
 ![image info](./assets/tree-parts.jpg)
+
 Tree এর Height = root - farthest leaf(দুরতম leaf) । এক্ষেত্রে edge count করা হয়
 A এর height = 3
 I এর height = 0
@@ -59,7 +62,9 @@ console.dir(abc, { depth: null, colors: true, maxArrayLength: null });
 <a id="3"></a>
 
 [3. Binary Trees?]()
+
 একটা Tree এর Node সংখ্যা শূন্য,এক, দুই বা ততোধিক হতে পারে । Node সংখ্যা সর্বচ্চ ২ টা হলে সেই Tree কে Binary Tree বলে ।
+
 **Full binary tree:** each node has exactly 0 or 2 children (but never 1).
 **Complete binary tree:** when all levels except the last one are full with nodes.
 **Perfect binary tree:** when all the levels (including the last one) are full of nodes.
@@ -68,6 +73,7 @@ console.dir(abc, { depth: null, colors: true, maxArrayLength: null });
 <a id="5"></a>
 
 [5. BST Node insert করা]()
+
 left<root<=right
 
 ```
@@ -125,6 +131,7 @@ console.dir(BST, { depth: null, colors: true, maxArrayLength: null })
 <a id="6"></a>
 
 [6. BST traverse]()
+
 **Tree Traversal Algorithms দুই ধরনের:**
 
 1. DFS =>৩ প্রকারঃ
@@ -303,6 +310,7 @@ BST.bfs();
 
 ```
 //https://levelup.gitconnected.com/deletion-in-binary-search-tree-with-javascript-fded82e1791c
+
 function createNode(value) {
     return {
         value: value,
