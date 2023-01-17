@@ -32,11 +32,38 @@ class BinarySearchTree {
             }
         }
     }
+    //BFS
+    bfs() {
+        if (this.root === null) {
+            return;
+        }
+        let queue = [this.root]
+
+        while (queue.length > 0) {
+            let currentNode = queue.shift()
+            process.stdout.write(currentNode.value + ' ');
+            if (currentNode.left === null && currentNode.right === null) {
+                continue
+            }
+            if (currentNode.left !== null) {
+                queue.push(currentNode.left)
+            }
+            if (currentNode.right !== null) {
+                queue.push(currentNode.right)
+            }
+        }
+    }
 }
 
 const BST = new BinarySearchTree()
-BST.insert(5)
-BST.insert(4)
+BST.insert(30)
 BST.insert(10)
+BST.insert(40)
+BST.insert(15)
+BST.insert(12)
+BST.insert(35)
 BST.insert(50)
+
 console.dir(BST, { depth: null, color: true, maxArrayLength: null })
+process.stdout.write("BFS: ");
+BST.bfs();
