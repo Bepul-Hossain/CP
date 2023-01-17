@@ -12,7 +12,7 @@ https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structure
 
 [5. BST Node insert করা](#5)
 
-[6. BST traverse(in-order, pre-order, post-order)](#6)
+[6. BST traverse](#6)
 
 [7. BST Node Delete করা এবং in-order এ পুনর্বিন্যাস করা](#7)
 
@@ -124,7 +124,7 @@ console.dir(BST, { depth: null, colors: true, maxArrayLength: null })
 
 <a id="6"></a>
 
-[6. BST traverse(in-order, pre-order, post-order)]()
+[6. BST traverse]()
 **Tree Traversal Algorithms দুই ধরনের:**
 
 1. DFS =>৩ প্রকারঃ
@@ -133,7 +133,9 @@ console.dir(BST, { depth: null, colors: true, maxArrayLength: null })
 - pre-order
 - post-order
 
-2. BFS
+2. BFS => 1 প্রকারঃ
+
+- Level Order Traversal
 
 ```
 //DFS
