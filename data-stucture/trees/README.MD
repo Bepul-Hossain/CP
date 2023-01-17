@@ -24,12 +24,12 @@ https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structure
 Tree হল এক ধরণের Graph কিন্তু সকল Gpaph ই Tree নয় । Tree তে cycle থাকে না এবং Tree এর নির্দিষ্ট root থাকে ।
 ![image info](./assets/tree-parts.jpg)
 
-Tree এর Height = root - farthest leaf(দুরতম leaf) । এক্ষেত্রে edge count করা হয়
-A এর height = 3
-I এর height = 0
-কোন node এর Depth বা level = root - node
-H এর depth = 2
-B এর depth = 1
+Tree এর Height = root - farthest leaf(দুরতম leaf) । এক্ষেত্রে edge count করা হয় <br>
+A এর height = 3<br>
+I এর height = 0<br>
+কোন node এর Depth বা level = root - node<br>
+H এর depth = 2<br>
+B এর depth = 1<br>
 
 <a id="2"></a>
 
@@ -65,9 +65,9 @@ console.dir(abc, { depth: null, colors: true, maxArrayLength: null });
 
 একটা Tree এর Node সংখ্যা শূন্য,এক, দুই বা ততোধিক হতে পারে । Node সংখ্যা সর্বচ্চ ২ টা হলে সেই Tree কে Binary Tree বলে ।
 
-**Full binary tree:** each node has exactly 0 or 2 children (but never 1).
-**Complete binary tree:** when all levels except the last one are full with nodes.
-**Perfect binary tree:** when all the levels (including the last one) are full of nodes.
+**Full binary tree:** each node has exactly 0 or 2 children (but never 1).<br>
+**Complete binary tree:** when all levels except the last one are full with nodes.<br>
+**Perfect binary tree:** when all the levels (including the last one) are full of nodes.<br>
 ![image info](./assets/full-complete-perfect-binary-tree.jpg)
 
 <a id="5"></a>
