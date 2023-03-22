@@ -1,0 +1,4 @@
+function BinaryHeap() {
+    let list = [];
+
+}
