@@ -36,4 +36,4 @@ console.log(allConstructTabulation("eeeeeeeeeeeeeeeeef", [
     "eee",
     "eeee",
     "eeeee"
-])); //
+])); //[]
