@@ -23,4 +23,4 @@ console.log(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", [
     "eee",
     "eeee",
     "eeeee"
-])); //4
+])); //0
