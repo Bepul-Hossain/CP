@@ -1,73 +1,15 @@
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const rows = 3;
+const cols = 3;
 
-prevNode = null;
-currentNode = {
-    5,
-    Next{
-    6,
-        Next{
-        2,
-            Null
+const twoDArray = arr.reduce((result, value, index) => {
+    const row = Math.floor(index / cols);
+    if (!result[row]) {
+        result[row] = [];
     }
-}
-              }
-nextNode = {
-    6,
-    Next{
-    2,
-        Null
-}
-           }
-currentNode.next = Null
-prevNode = {
-    5,
-    null
-         }
-currentNode = {
-    6,
-    Next{
-    2,
-        Null
-}
-            }
+    result[row].push(value);
+    return result;
+}, []);
 
-=========
-nextNode = {
-            2,
-            Null
-        }
-currentNode.next = {
-                    5,
-                    null
-                }
-prevNode = {
-            6,
-            Next{
-                5,
-                Null
-            }
-        }
-currentNode = {
-    value: 2,
-    next: Null
-}
-
-=========
-nextNode = null
-currentNode.next = {
-                    6,
-                    Next{
-                        5,
-                        Null
-                    }
-                }
-prevNode = {
-    value: 2,
-    next: {
-        6,
-        Next{
-            5,
-            Null
-        }
-    }
-}
-currentNode = null
+console.log(twoDArray);
+// Output: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
