@@ -62,3 +62,20 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 
 - Dynamic Programming
   - https://www.youtube.com/watch?v=oBt53YbR9Kk&t=9369s&ab_channel=freeCodeCamp.org
+
+### OOPs in JS
+
+https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/
+https://www.freecodecamp.org/news/how-javascript-implements-oop/
+
+### Design patterns
+
+https://sourcemaking.com/design_patterns
+https://www.freecodecamp.org/news/javascript-design-patterns-explained/#behavioral-design-patterns
+
+- Creational Design Patterns
+  - [factory-design-pattern](https://hasin.me/2014/05/13/factory-design-pattern/)
+  - Singleton design patter
+  -
+- Structural Design Patterns
+- Behavioral Design Patterns
