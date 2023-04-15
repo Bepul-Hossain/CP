@@ -51,6 +51,7 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 - Recursion/Backtracking
 
   - https://www.youtube.com/watch?v=Qvg5-GO1XtU&list=PLrClazTqVpJkZSFk6mRw5e0BOtOG4-7El&index=10&ab_channel=AndyGala
+  - [Permutation](https://levelup.gitconnected.com-/find-all-permutations-of-a-string-in-javascript-af41bfe072d2)
 
 - Greedy
 

@@ -1,6 +1,6 @@
 // https://www.youtube.com/watch?v=2_Uuixtc5i0&ab_channel=AlvintheProgrammer
 
-//using stack
+//using stack root->right->left
 const dfsPrint_s = (graph, source) => {
     const stack = [source];
     while (stack.length > 0) {
@@ -14,7 +14,7 @@ const dfsPrint_s = (graph, source) => {
     }
 }
 
-//using recursion
+//using recursion=> root->left->right
 const dfsPrint_r = (graph, source) => {
     if (source.length <= 0) return
     console.log(source);
