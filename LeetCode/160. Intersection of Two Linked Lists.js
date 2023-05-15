@@ -15,20 +15,14 @@ const arrToList = (arr) => {
  * @return {ListNode}
  */
 var getIntersectionNode = function (headA, headB) {
-    console.log(headA);
-    console.log("=========");
-    console.log(headB);
-
-    let hash = {};
-    while (headA !== null) {
-        hash[headA] = headA;
+    let set = new Set();
+    while (headA) {
+        set.add(headA);
         headA = headA.next;
     }
-    while (headB !== null) {
-        if (hash[headB] !== null) {
-            return headB.val;
-        }
-        headB = headB.next
+    while (headB) {
+        if (set.has(headB)) return headB;
+        headB = headB.next;
     }
     return null;
 };

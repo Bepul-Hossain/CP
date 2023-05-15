@@ -13,9 +13,9 @@ var majorityElement = function (nums) {
     }
     let res = 0, maxVal = 0;
     Object.entries(hash).forEach((item) => {
-        const [key, val] = item;
-        if (maxVal < val) {
-            maxVal = val;
+        let [key, value] = item;
+        if (value > maxVal) {
+            maxVal = value;
             res = key;
         }
     })
