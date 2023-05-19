@@ -1,34 +1,20 @@
-function ListNode(val, next) {
-    this.val = (val === undefined ? 0 : val)
-    this.next = (next === undefined ? null : next)
-}
-const listFromArray = a => a.length ? new ListNode(a[0], listFromArray(a.slice(1)))
-    : null;
-const arrayFromList = head => head ? [head.val].concat(arrayFromList(head.next))
-    : [];
-
-
-
-var mergeTwoLists = function (l1, l2) {
-    console.log(l2);
-    var mergedHead = { val: -1, next: null },
-        crt = mergedHead;
-    while (l1 && l2) {
-        if (l1.val > l2.val) {
-            crt.next = l2;
-            l2 = l2.next;
-        } else {
-            crt.next = l1;
-            l1 = l1.next;
+const secondLerge = (arr) => {
+    let max = -Infinity;
+    let secMax = -Infinity;
+    let thirdMax = -Infinity;
+    for (const num of arr) {
+        if (num > max) {
+            thirdMax = secMax;
+            secMax = max;
+            max = num;
+        } else if (num > secMax) {
+            thirdMax = secMax;
+            secMax = num;
+        } else if (num > thirdMax) {
+            thirdMax = num;
         }
-        crt = crt.next;
     }
-    crt.next = l1 || l2;
-    return mergedHead.next;
-};
+    return thirdMax;
+}
 
-const result = arrayFromList(
-    mergeTwoLists(listFromArray([1, 2, 4]), listFromArray([1, 3, 4]))
-);
-
-console.log(result);
+console.log(secondLerge([1, 3, 6, -1, 0, 2, 8, 7]));
