@@ -17,7 +17,7 @@ var letterCombinations = function (digits) {
     var recursion = function (digits, origLength, str, arr) {
 
     }
-    for (let i = 0; i < hashTable[digits[0]].length; i++) {
+    for (let i = 0; i < digits.length; i++) {
         recursion(digits.slice(1), digits.length, hashTable[digits[0]][i], res)
     }
 

@@ -1,37 +1,111 @@
+// Input
+// ["KthLargest", "add", "add", "add", "add", "add"]
+// [[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]
+// Output
+// [null, 4, 5, 5, 8, 8]
 
-class KthLargest {
-    constructor(k, nums) {
-        this.k = k
-        this.minHeap = new MinPriorityQueue();
+var KthLargest = function (k, nums) {
+    this.heap = new MinHeap(nums);
+    this.k = k;
 
-        nums.forEach((num) => {
-            let p = this.add(num)
-            console.log(p);
-        })
+    while (this.heap.values.length > k) {
+        this.heap.removeSmallest();
     }
-    add(val, { minHeap } = this) {
-        const isUnderCapacity = minHeap.size() < this.k;
-        if (isUnderCapacity) {
-            minHeap.enqueue(val);
+};
 
-            return this.top();
-        }
-        const isLarger = this.top() < val;
-        if (isLarger) {
-            minHeap.dequeue()
-            minHeap.enqueue(val);
-        }
+/** 
+* @param {number} val
+* @return {number}
+*/
+KthLargest.prototype.add = function (val) {
+    this.heap.add(val);
 
-        return this.top();
+    if (this.heap.values.length > this.k) {
+        this.heap.removeSmallest();
     }
-    top({ minHeap } = this) {
-        return minHeap.front()?.element || 0
+
+    return this.heap.values[0];
+};
+
+function MinHeap(nums) {
+    this.values = [];
+
+    for (let num of nums) {
+        this.add(num);
     }
 }
 
-const kthLargest = new KthLargest(3, [4, 5, 8, 2]);
-kthLargest.add(3);
-kthLargest.add(5);
-kthLargest.add(10);
-kthLargest.add(9);
-kthLargest.add(4);
+MinHeap.prototype.add = function (val) {
+    this.values.push(val);
+
+    let valIndex = this.values.length - 1;
+
+    while (valIndex > 0) {
+        const parentIndex = Math.floor((valIndex - 1) / 2);
+
+        if (this.values[parentIndex] >= this.values[valIndex]) {
+            const parent = this.values[parentIndex];
+
+            this.values[parentIndex] = val;
+            this.values[valIndex] = parent;
+
+            valIndex = parentIndex;
+        } else break;
+    }
+}
+
+MinHeap.prototype.removeSmallest = function () {
+    let currSmallest = this.values[0];
+    let last = this.values.pop();
+    this.values[0] = last;
+
+    let index = 0;
+    const length = this.values.length;
+    const current = this.values[0];
+
+    while (true) {
+        let swap = null;
+
+        const leftChildIndex = (index * 2) + 1;
+        const rightChildIndex = (index * 2) + 2;
+
+        let leftChild, rightChild;
+
+        if (leftChildIndex < length) {
+            leftChild = this.values[leftChildIndex];
+
+            if (leftChild < current) swap = leftChildIndex;
+        }
+
+        if (rightChildIndex < length) {
+            rightChild = this.values[rightChildIndex];
+
+            if (
+                (swap === null && rightChild < current) ||
+                (swap !== null && rightChild < leftChild)
+            ) swap = rightChildIndex;
+        }
+
+        if (swap === null) break;
+        this.values[index] = this.values[swap];
+        this.values[swap] = current;
+        index = swap;
+    }
+
+    return currSmallest;
+}
+
+let obj = new KthLargest(3, [4, 5, 8, 2]);
+let res = [];
+// res.push()
+obj.add(3);
+obj.add(8);
+obj.add(10);
+console.log(obj);
+
+
+/** 
+* Your KthLargest object will be instantiated and called as such:
+* var obj = new KthLargest(k, nums)
+* var param_1 = obj.add(val)
+*/

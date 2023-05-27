@@ -1,0 +1,1 @@
+let mpq = new MinPriorityQueue();
