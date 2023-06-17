@@ -35,7 +35,7 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 - https://neetcode.io/practice
 - https://www.structy.net/
 - https://leadcoding.in/dsa-sheet/
-- [Problem Link spread sheet](https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0)
+- [Problem Link spread sheet](https://docs.google.com/spreadsheets/d/1kHFIf50MgbY-Tu2P27GVMwtKQqJoobGgPnoeW_99GFU/edit?usp=sharing)
 
 ### Data Structures
 
