@@ -34,6 +34,8 @@ num=5.892; num.toFixed(2); will return 5.89 . [process.stdout.write(value+"")](<
 - https://github.com/EbookFoundation/free-programming-books
 - https://neetcode.io/practice
 - https://www.structy.net/
+- https://leadcoding.in/dsa-sheet/
+- [Problem Link spread sheet](https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0)
 
 ### Data Structures
 
@@ -71,7 +73,7 @@ https://www.freecodecamp.org/news/how-javascript-implements-oop/
 
 ### Design patterns
 
-https://sourcemaking.com/design_patterns
+https://sourcemaking.com/design_patterns/
 https://www.freecodecamp.org/news/javascript-design-patterns-explained/#behavioral-design-patterns
 
 - Creational Design Patterns
