@@ -15,8 +15,9 @@
 
 ### DSA
 
-- [Linked List](https://github.com/Bepul-Hossain/CP/tree/master/DSA/link-list)
+- Linked List
 
+  - https://github.com/Bepul-Hossain/CP/tree/master/DSA/link-list
   - https://sebhastian.com/linked-list-javascript/
   - [doubly-linked-list-javascript](https://sebhastian.com/doubly-linked-list-javascript/)
 
