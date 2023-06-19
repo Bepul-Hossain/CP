@@ -49,8 +49,7 @@ https://www.freecodecamp.org/news/how-javascript-implements-oop/
 ### Design patterns
 
 https://sourcemaking.com/design_patterns/
-
-https://www.freecodecamp.org/news/javascript-design-patterns-explained/#behavioral-design-patterns/
+https://www.freecodecamp.org/news/javascript-design-patterns-explained/
 
 - Creational Design Patterns
 
