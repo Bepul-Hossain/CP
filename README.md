@@ -46,10 +46,14 @@
 https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/
 https://www.freecodecamp.org/news/how-javascript-implements-oop/
 
-### Design patterns
+### TypeScript
+https://www.tutorialsteacher.com/typescript
 
+### Design patterns
+https://sbcode.net/typescript/  
 https://sourcemaking.com/design_patterns/  
-https://www.freecodecamp.org/news/javascript-design-patterns-explained/
+https://www.freecodecamp.org/news/javascript-design-patterns-explained/  
+https://www.dofactory.com/javascript/design-patterns
 
 - Creational Design Patterns
 
