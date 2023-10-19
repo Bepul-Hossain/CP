@@ -6,7 +6,9 @@
 - https://github.com/trekhleb/javascript-algorithms
 - https://github.com/me-shaon/bangla-programming-resources
 - https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer
+- https://github.com/trekhleb/javascript-algorithms
 - https://github.com/EbookFoundation/free-programming-books
+- https://www.geeksforgeeks.org/sde-sheet-a-complete-guide-for-sde-preparation/
 - https://neetcode.io/practice
 - https://www.structy.net/
 - https://leadcoding.in/dsa-sheet/
