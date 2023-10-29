@@ -15,12 +15,12 @@ const dfsPrint_s = (graph, source) => {
 }
 
 //using recursion=> root->left->right
-const dfsPrint_r = (graph, source) => {
-    if (source.length <= 0) return
-    console.log(source);
+function dfsPrint_r(graph, source, ans) {
+    ans.push(source);
     for (let neighbor of graph[source]) {
-        dfsPrint_r(graph, neighbor)
+        dfsPrint_r(graph, neighbor, ans)
     }
+    return ans;
 }
 
 const graph = {
@@ -31,6 +31,7 @@ const graph = {
     e: [],
     f: []
 }
+
 dfsPrint_s(graph, "a"); //acebdf
 console.log("============");
-dfsPrint_r(graph, "a"); //abdfce
+console.log(dfsPrint_r(graph, "a", [])) //abdfce
