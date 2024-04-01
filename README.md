@@ -49,9 +49,11 @@ https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascrip
 https://www.freecodecamp.org/news/how-javascript-implements-oop/
 
 ### TypeScript
+
 https://www.tutorialsteacher.com/typescript
 
 ### Design patterns
+
 https://sbcode.net/typescript/  
 https://sourcemaking.com/design_patterns/  
 https://www.freecodecamp.org/news/javascript-design-patterns-explained/  
@@ -69,3 +71,7 @@ https://www.dofactory.com/javascript/design-patterns
 - Behavioral Design Patterns
 
   - [Observer](https://php.howtocode.dev/design-patterns/observer-pattern)
+
+### System Design
+
+https://github.com/systemdesign42/system-design?tab=readme-ov-file
