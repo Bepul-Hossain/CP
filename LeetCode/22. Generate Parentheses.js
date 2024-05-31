@@ -1,23 +1,22 @@
 var generateParenthesis = function (n) {
-    return dfs(n, graph = [], open = 0, close = 0, str = "");
-}
+    let graph = [];
+    let open = 0, close = 0;
+    function dfs(n, graph, open, close, str) {
+        if (open === n && close === n) {
+            graph.push(str)
+            return;
+        };
 
-const dfs = (n, graph, open, close, str) => {
+        if (open < n) {
+            dfs(n, graph, open + 1, close, str + "(");
+        }
 
-    if (open === n && close === n) return;
-
-    if (close < open) {
-        str = str.concat(")")
-        close++;
-        dfs(n, graph, open, close, str);
+        if (close < open) {
+            dfs(n, graph, open, close + 1, str + ")");
+        }
     }
-    if (open < n) {
-        str = str.concat("(");
-        open++;
-        dfs(n, graph, open, close, str);
-    }
-    graph.push(str)
-    return graph
+    dfs(n, graph, open, close, "");
+    return graph;
 }
 
 console.log(generateParenthesis(3));
